@@ -1,0 +1,145 @@
+body {
+    background-image: url("img/bgmike.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: cadetblue;
+    max-width:60vw;
+}
+
+.menu {
+    position: absolute;
+    top: 21%;
+    left: 15%;
+}
+
+.jumbo {
+    font-size: 100px;
+    position: absolute;
+    top: -28%;
+    left: 30%;
+    font-weight: 700;
+}
+
+#num {
+    color: lightcoral;
+}
+
+#text {
+    box-shadow: 8px 7px 20px #000;
+    color: #1b1c1b;
+    filter: opacity(40%);
+    font-weight: 600;
+    border-radius: 30px;
+}
+
+footer {
+    position: absolute;
+    left: 2%;
+    bottom: 1%;
+}
+@media (max-width: 768px) {
+    body {
+        background-image: url("img/bgmike.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: 55%;
+    }
+
+    .jumbo {
+        font-size: 50px;
+        top: -12%;
+        left: 20%;
+        text-decoration: underline;
+    }
+
+    #text {
+        width: 90%;
+        filter: opacity(95%);
+    }
+
+    body {
+        background-color: #AFD3E2;
+    }
+
+    #play {
+        position: relative;
+        left: 35%;
+    }
+
+    footer {
+        left: 3%;
+        bottom: -1%;
+    }
+}
+
+@media (max-width: 470px) {
+    body {
+        background-image: url("img/bgmike.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: 55%;
+    }
+
+    .menu {
+        top: 15%;
+        left: 5%;
+    }
+
+    .jumbo {
+        font-size: 40px;
+        top: -15%;
+        left: 5%;
+    }
+
+    #text {
+        box-shadow: 5px 4px 10px rgb(26, 26, 28);
+    }
+
+    footer {
+        left: 26%;
+        bottom: 0.5%;
+    }
+
+    #play {
+        position: relative;
+        left: 30%;
+        box-shadow: 5px 7px 8px #000;
+    }
+}
+@media (max-width: 320px) {
+    body {
+        background-image: url("img/bgmike.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: 55%;
+    }
+
+    .menu {
+        top: 10%;
+        left: 2%;
+    }
+
+    .jumbo {
+        font-size: 30px;
+        top: -20%;
+        left: 2%;
+    }
+
+    #text {
+        box-shadow: 3px 3px 8px rgb(26, 26, 28);
+        font-size: 12px;
+    }
+
+    footer {
+        left: 10%;
+        bottom: 0.2%;
+    }
+
+    #play {
+        position: relative;
+        left: 25%;
+        box-shadow: 3px 4px 6px #000;
+        font-size: 14px;
+    }
+}
