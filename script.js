@@ -5,3 +5,4 @@ speakBtn.addEventListener("click",() => {
     const speech=new SpeechSynthesisUtterance(text.value)
     speechSynthesis.speak(speech)
 });
+
